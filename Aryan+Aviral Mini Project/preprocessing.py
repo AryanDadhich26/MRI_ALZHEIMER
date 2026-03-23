@@ -265,7 +265,7 @@ def save_slices(nifti_path, output_name, num_slices=15):
 
 
 
-
+# main
 def main(root_folder):
     """Find and process all DICOM folders."""
     dicom_folders = find_deepest_dicom_folders(root_folder)
